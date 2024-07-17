@@ -25,7 +25,7 @@
             max-width: 328px;
         }
         .products .product, .features .feature {
-            text-align: center;
+            
         }
 
         #amdai #producListAccordion  {
@@ -66,6 +66,8 @@
         #amdai .products-features__text {
             background-color: #1c1c1c;
             min-height: 130px;
+            display: flex;
+            align-items: center;
         }
 
         #amdai .productos-features__image {
@@ -89,18 +91,35 @@
             margin: 0;
         }
         /* Tipografía y colores */
-        #amdai h1, #amdai h2  {
-            font-weight: bold;
-        }
-        #amdai h3, #amdai h4, #amdai h5, #amdai h6 {
+     
+       /*  #amdai h1, #amdai h2, #amdai h3, #amdai h4, #amdai h5, #amdai h6 {
             font-weight: unset!important;
+        } */
+
+        #amdai .amd-title-big {
+            font-size: 3.5em;
         }
-        #amdai h3 {
+        #amdai .amd-title-medium {
+            font-size: 2em;
+        }
+        #amdai .amd-title-small {
             font-size: 1.2em;
         }
+
+        #amdai .amd-text-bold {
+            font-weight: 900;
+        }
+        
         p, li {
             color: #bbb; /* Color de párrafo */
         }
         .text-highlight {
             color: #ff6f00; /* Color destacado */
+        }
+
+        #amdai .border-bottom--division {
+            background-color: white;
+            height: 1px;
+            border: none;
+            width: 90%;
         }
