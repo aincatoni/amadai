@@ -1,0 +1,80 @@
+        #amdai {
+            background-color: #000;
+            color: #fff;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .header-image {
+            background: url('img/Portada-elemento-5.png') no-repeat center center;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 0;
+            position: relative;
+        }
+        .header-logo {
+            max-width: 83px;
+            position: absolute;
+            top: 30px;
+            left: 60px;
+        }
+        .portada-uno {
+            max-width: 328px;
+        }
+        .products .product, .features .feature {
+            text-align: center;
+        }
+
+        #amdai #producListAccordion  {
+            background-color: #000;
+            color: #fff;
+        }
+        #amdai #producListAccordion .accordion-item {
+            background-color: #000;
+            color: #fff;
+        }
+
+        #amdai .accordion-item:first-child {
+            border-top: 1px solid white;
+        }
+
+        #amdai #producListAccordion .accordion-button {
+            background-color: #000;
+            color: #fff;
+            border-bottom: 1px solid white;
+        }
+        
+        #amdai #producListAccordion .accordion-button:not(.collapsed) {
+            color: #fff;
+            background-color: #007bff;
+        }
+        .accordion-body {
+            color: #000;
+        }
+        footer {
+            background-color: #111;
+            color: #777;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+        /* Tipografía y colores */
+        #amdai h1, #amdai h2  {
+            font-weight: bold;
+        }
+        #amdai h3, #amdai h4, #amdai h5, #amdai h6 {
+            font-weight: unset!important;
+        }
+        #amdai h3 {
+            font-size: 1.2em;
+        }
+        p, li {
+            color: #bbb; /* Color de párrafo */
+        }
+        .text-highlight {
+            color: #ff6f00; /* Color destacado */
+        }
