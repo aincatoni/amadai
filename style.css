@@ -49,8 +49,20 @@
         
         #amdai #producListAccordion .accordion-button:not(.collapsed) {
             color: #fff;
-            background-color: #007bff;
+            /* background-color: #007bff; */
         }
+
+        #amdai #producListAccordion .accordion-button:focus {
+            box-shadow: unset;
+        }
+
+        #amdai #producListAccordion .accordion-button:not(.collapsed)::after {
+            background-image: url(img/descarga.svg);
+        }
+        #amdai #producListAccordion .accordion-button.collapsed::after {
+            background-image: url(img/minus.svg);
+        }
+
         .accordion-body {
             color: #000;
         }
