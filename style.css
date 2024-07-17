@@ -63,6 +63,20 @@
             background-image: url(img/minus.svg);
         }
 
+        #amdai .products-features__text {
+            background-color: #1c1c1c;
+            min-height: 130px;
+        }
+
+        #amdai .productos-features__image {
+            height: 200px;
+        }
+
+        #amdai .productos-features__image img {
+            object-fit: cover;
+            height: 100%;
+        }
+
         .accordion-body {
             color: #000;
         }
