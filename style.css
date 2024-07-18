@@ -24,7 +24,8 @@
         .portada-uno {
             max-width: 328px;
         }
-        .products .product, .features .feature {
+        #amdai .product {
+  
             
         }
 
@@ -70,11 +71,11 @@
             align-items: center;
         }
 
-        #amdai .productos-features__image {
+        #amdai .products-features__image {
             height: 200px;
         }
 
-        #amdai .productos-features__image img {
+        #amdai .products-features__image img {
             object-fit: cover;
             height: 100%;
         }
@@ -122,4 +123,21 @@
             height: 1px;
             border: none;
             width: 90%;
+        }
+
+        #amdai .ai-features__text {
+            background-color: #1c1c1c;
+            min-height: 190px;
+            display: flex;
+            align-items: center;
+        }
+
+        #amdai .ai-features__image {
+            height: 255px;
+        }
+
+        #amdai .ai-features__image img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
         }
