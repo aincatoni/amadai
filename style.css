@@ -2,10 +2,13 @@
             background-color: #000;
             color: #fff;
         }
-        .section {
-            padding: 60px 0;
+
+        
+
+        #amdai p {
+            color: #ffffff;
         }
-        .header-image {
+        #amdai .header-image {
             background: url('img/Portada-elemento-5.png') no-repeat center center;
             background-size: cover;
             min-height: 100vh;
@@ -15,19 +18,35 @@
             padding: 20px 0;
             position: relative;
         }
-        .header-logo {
+        #amdai .header-logo {
             max-width: 83px;
             position: absolute;
             top: 30px;
             left: 60px;
         }
-        .portada-uno {
+        #amdai .portada-uno {
             max-width: 328px;
         }
-        #amdai .product {
-  
-            
+
+        #amdai .header-center {
+            position: absolute;
+            top: 60%;
+            left: 70%;
+            transform: translate(-60%, -70%);
         }
+
+        #amdai .header-arrows {
+            position: absolute;
+            top: 10%;
+            left: -60%;
+            z-index: 0;
+            transform: translate(-60%, -15%);
+        }
+        #amdai .header-arrows img {
+            width: 120%;
+        }
+
+
 
         #amdai #producListAccordion  {
             background-color: #000;
@@ -50,7 +69,6 @@
         
         #amdai #producListAccordion .accordion-button:not(.collapsed) {
             color: #fff;
-            /* background-color: #007bff; */
         }
 
         #amdai #producListAccordion .accordion-button:focus {
@@ -80,6 +98,10 @@
             height: 100%;
         }
 
+        #amdai .products ul li {
+            color: #ffffff;
+        }
+
         .accordion-body {
             color: #000;
         }
@@ -92,10 +114,6 @@
             margin: 0;
         }
         /* Tipografía y colores */
-     
-       /*  #amdai h1, #amdai h2, #amdai h3, #amdai h4, #amdai h5, #amdai h6 {
-            font-weight: unset!important;
-        } */
 
         #amdai .amd-title-big {
             font-size: 3.5em;
@@ -107,13 +125,21 @@
             font-size: 1.2em;
         }
 
+        #amdai .amd-text-regular {
+            font-weight: 400;
+        }
+
         #amdai .amd-text-bold {
             font-weight: 900;
         }
-        
-        p, li {
-            color: #bbb; /* Color de párrafo */
+
+        #amdai .amd-text-small {
+            font-size: .6em;
         }
+        
+       #amdai .amd-text-gray {
+        color: #8b8b8b;
+       }
         .text-highlight {
             color: #ff6f00; /* Color destacado */
         }
